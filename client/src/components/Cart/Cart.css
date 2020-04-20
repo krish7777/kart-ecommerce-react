@@ -1,0 +1,33 @@
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.cart-wrapper {
+  width: 90vw;
+  margin: auto;
+}
+
+.cart-total {
+  position: absolute;
+  margin: 16px;
+  right: 10vw;
+  font-size: large;
+}
+
+.cart-buttons {
+  margin: 16px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.cart-buttons a {
+  color: white;
+}
+
+.cart-buttons div {
+  background-color: #ed7569;
+}

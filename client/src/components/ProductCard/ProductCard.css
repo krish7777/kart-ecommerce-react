@@ -1,0 +1,29 @@
+.card-size--wrapper div {
+  margin: auto;
+}
+
+.product-card {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 7fr 1fr 1fr;
+  height: 100%;
+  min-height: 350px;
+  max-height: 700px;
+  text-align: center;
+  /* padding: 10px 10px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-card--sizelist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}

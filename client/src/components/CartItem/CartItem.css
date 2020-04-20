@@ -1,0 +1,64 @@
+.cart-item {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: grid;
+  grid-template-areas:
+    "cross pic  name name price"
+    "cross pic  quantity size price";
+}
+
+.circular-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* background-color: black; */
+  margin-left: 5px;
+  border: 1px solid whitesmoke;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross {
+  grid-area: cross;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross div {
+  background-color: #ed7569;
+}
+
+.orange-btn {
+  background-color: #ed7569;
+}
+
+.cross span {
+  color: black;
+}
+.pic {
+  grid-area: pic;
+  height: 100px;
+  width: 100px;
+}
+.name {
+  grid-area: name;
+}
+.quantity {
+  grid-area: quantity;
+}
+.price {
+  grid-area: price;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.size {
+  grid-area: size;
+}
